@@ -164,17 +164,63 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50px;
+    height: 45px;
     width: 150px;
     margin-right: auto;
     margin-top: 10px;
     text-decoration: none;
-    border: 1px solid ;
+    /* border: 1px solid ; */
     border-radius: 30px;
-    color: black;
-    font-weight: bolder;
+    color: #3F1A05;
+    background-color: #F3ABB5;
+    font-weight: bold;
+    font-size: 17px;
  }
 
+.b-image2{
+     height: 300px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    /* align-items: stretch; */
+    justify-content: end;
+    padding: 20px 20px;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.61)), url(./media/grid-box2);
+    color: white;
+    font-size: 30px;
+} 
+
+.b-text2{
+    background-color: #DF9295;
+    height: 200px;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    padding: 0px 20px;
+    line-height: 30px; 
+}
+
+.text-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    width: 150px;
+    margin-right: auto;
+    margin-top: 10px;
+    text-decoration: none;
+    /* border: 1px solid ; */
+    border-radius: 30px;
+    color: #3F1A05;
+    background-color: #E9B4B6;
+    font-weight: bold;
+    font-size: 17px;
+ }
  
 
 
